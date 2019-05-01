@@ -9,8 +9,6 @@ module Api
         render json: Hobby.includes(:cats), include: ['cats']
       end
 
-      def show
-      end
     end
   end
 end
